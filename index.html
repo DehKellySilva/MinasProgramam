@@ -5,18 +5,20 @@
     <meta keywords="Denise Silva, Desenvolvedora, Minas Programam, portfólio">
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>
+        Portfólio - Denise Silva
+    </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600&family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <title>Portfólio - Denise Silva</title>
+    
     
     <link rel="stylesheet" href="css/style.css">
-    
 </head>
 <body>
     <nav class="menu">
-        <ul class="bg-dark">
+        <ul class="lista-menu">
             <li>
                 <a href="#formacao">Formação</a>
             </li>
@@ -28,7 +30,7 @@
             </li>
         </ul>
     </nav>
-    <main>
+    <main class="intro-content">
         <figure>
             <img src="./img/IMG_7630.jpeg" alt="Foto de perfil da Denise" width="200px">
         </figure>
@@ -36,11 +38,12 @@
         <h2 class="subtitle">Desenvolvedora Web</h2>
         <p class="intro">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa eaque placeat aliquid, eligendi ipsum iusto nemo totam deleniti. Minus neque dolore distinctio modi voluptate? Voluptate corporis veritatis error nostrum.</p>
     </main>
-    <section id="formacao" class="bg-dark">
+    <section id="formacao">
+        <div class="conteudo">
         <h1>Formação</h1>
         <ul>
-            <li>
-                <h4>Curso de desenvolvimento</h4>
+            <li class="item">
+                <h4 class="descricao">Curso de desenvolvimento</h4>
                <h4>
                    <a href="https://minasprogramam.com/">Minas Programam
 
@@ -50,8 +53,8 @@
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam rerum dicta magnam cupiditate blanditiis quos, quibusdam tempore, exercitationem corporis sapiente, inventore quis vitae veritatis qui optio dignissimos cumque. Pariatur, dolorem!
                 </p>
             </li>
-            <li>
-                <h4>Curso de desenvolvimento</h4>
+            <li class="item">
+                <h4 class="descricao">Curso de desenvolvimento</h4>
                 <h4>
                     <a href="https://brazil.generation.org/">Generation Brasil
 
@@ -62,12 +65,15 @@
                 </p>
             </li>
         </ul>
+        </div>
     </section>
     <section id="portfolio">
+        <div class="conteudo">
        <h1>Portfólio</h1> 
         <ul>
             <li>
                 <h4>Blog Pet - melhores amigos</h4>
+                <p>Desenvolvedora</p>
                 <h4>
                     <a href="http://localhost:3000/">Link do projeto
 
@@ -78,8 +84,9 @@
                 </p>
             </li>
 
-            <li>
-                <h4>Blog Pet - melhores amigos</h4>
+            <li class="item">
+                <h4 class="descricao">Blog Pet - melhores amigos</h4>
+                <p>Desenvolvedora</p>
                 <h4>
                     <a href="http://localhost:3000/">Link do projeto
 
@@ -90,8 +97,9 @@
                 </p>
             </li>
         </ul>
+        </div>
     </section>
-    <footer id="contato" class="bg-dark">
+    <footer id="contato">
         <div>
          <span class="fas fa-envelope-square"></span>
          <a href="mailto:denisekellypereira@hotmail.com" >denisekellypereira@hotmail.com</a>
