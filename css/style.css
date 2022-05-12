@@ -3,13 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
-    font-family: 'Open sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 li {
@@ -17,12 +15,11 @@ li {
 }
 
 .menu {
-    background-color: #938DF8;
-    display: flex;
-    justify-content: flex-end;
     position: fixed;
     width: 100%;
-
+    background-color:  #938DF8;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .lista-menu {
@@ -55,10 +52,14 @@ li {
     padding-top: 100px;
 }
 
+.intro-content figure {
+    margin-bottom: 20px;
+}
+
 .title {
     font-weight: 700;
     font-size: 36px;
-    color:#938DF8;
+    color: #938DF8;
 }
 
 .subtitle {
@@ -68,7 +69,7 @@ li {
 }
 
 .intro {
-    font-family: 'AbeeZee', sans-serif;
+    font-family: 'ABeeZee', sans-serif;
     color: #000000;
     font-size: 16px;
     max-width: 490px;
@@ -138,4 +139,3 @@ section h1 {
     color: #ffffff;
     text-decoration: none;
 }
-
